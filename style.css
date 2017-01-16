@@ -1,0 +1,33 @@
+html, body {
+    height:100%;
+    width:100%;
+}
+body {
+    margin: 0;
+    padding-top:50px;
+}
+#whole_page {
+    height: calc(100% - 50px);
+    width: 100%;
+}
+#header {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    top: 0;
+}
+#main {
+    height: 100%;
+    border: solid 1px #ff0000;
+    text-align: center;
+    margin: 0px auto;
+    width: 40%;
+}
+.list {
+    display: inline-block;
+    border: solid 1px #000;
+}
+.prenota {
+    display: inline-block;
+    border: solid 1px #000;
+}
