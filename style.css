@@ -18,19 +18,19 @@ body {
 }
 #main {
     height: 100%;
-    border: solid 1px #ff0000;
     text-align: center;
-    margin: 0px auto;
     width: 100%;
 }
 .list {
     width: 50%;
+    height: 100%;
     display: inline-block;
 
     float: left
 }
 .prenota {
     width: 50%;
+    height: 100%;
     display: inline-block;
 
     float: right
