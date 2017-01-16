@@ -21,13 +21,17 @@ body {
     border: solid 1px #ff0000;
     text-align: center;
     margin: 0px auto;
-    width: 40%;
+    width: 100%;
 }
 .list {
+    width: 50%;
     display: inline-block;
-    border: solid 1px #000;
+
+    float: left
 }
 .prenota {
+    width: 50%;
     display: inline-block;
-    border: solid 1px #000;
+
+    float: right
 }
