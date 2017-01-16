@@ -1,37 +1,32 @@
-html, body {
-    height:100%;
-    width:100%;
+body{
+    background-color: aquamarine;
 }
-body {
-    margin: 0;
-    padding-top:50px;
+.nav-wrapper{
+    background-color: #3F51B5;
 }
-#whole_page {
-    height: calc(100% - 50px);
-    width: 100%;
+.brand-logo{
+    margin-left: 12px;
 }
-#header {
-    position: fixed;
-    height: 50px;
-    width: 100%;
-    top: 0;
+.left-align{
+    padding-right: 40%;
+    padding-top: 40%;
+    padding-bottom: 40%;
 }
-#main {
-    height: 100%;
-    text-align: center;
-    width: 100%;
+.right-align{
+    padding-left: 40%;
+    padding-top: 40%;
+    padding-bottom: 40%;
 }
-.list {
-    width: 50%;
-    height: 100%;
-    display: inline-block;
-
-    float: left
+.grow {
+    transition: all .2s ease-in-out;
+    color: white;
 }
-.prenota {
-    width: 50%;
-    height: 100%;
-    display: inline-block;
-
-    float: right
+.grow:hover {
+    transform: translate(100px,0px);
 }
+.growright {
+    transition: all .2s ease-in-out;
+    color: white;
+}
+.growright:hover {
+    transform: translate(-100px,0px);
