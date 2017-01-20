@@ -1,5 +1,6 @@
 body{
     background-color: aquamarine;
+    flex-direction: column;
 }
 .nav-wrapper{
     background-color: #3F51B5;
@@ -30,3 +31,7 @@ body{
 }
 .growright:hover {
     transform: translate(-100px,0px);
+}
+main {
+    flex: 1 0 auto;
+}
